@@ -83,20 +83,22 @@
         android:hint="password"
         android:padding="20dp"
         android:textColor="@color/black"></EditText>
+
     <TextView
         android:id="@+id/btnsignin1"
         android:layout_width="140dp"
         android:layout_height="65dp"
         android:layout_below="@id/etpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
         android:background="@drawable/round"
         android:backgroundTint="@color/white"
-        android:layout_centerHorizontal="true"
-        android:text="SIGN IN"
-        android:layout_marginTop="40dp"
+        android:gravity="center"
         android:padding="20dp"
+        android:text="SIGN IN"
         android:textSize="20dp"
-        android:textStyle="bold"
-        android:gravity="center"/>
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/btnforgotpassword"
         android:layout_width="wrap_content"
@@ -112,20 +114,27 @@
         android:layout_centerHorizontal="true"
 
         android:gravity="center"/>
+
     <TextView
         android:id="@+id/btnsignup1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnforgotpassword"
 
-        android:background="@color/green"
-        android:text="New user? Sign up here"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:gravity="center"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+
+
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="New user? Sign up here"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
