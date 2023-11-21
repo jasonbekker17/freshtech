@@ -90,13 +90,14 @@
         android:layout_height="65dp"
         android:layout_below="@id/etpassword"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/round"
         android:backgroundTint="@color/white"
         android:gravity="center"
         android:padding="20dp"
         android:text="SIGN IN"
         android:textSize="20dp"
+
         android:textStyle="bold" />
 
     <TextView
@@ -110,7 +111,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
 
         android:gravity="center"/>
@@ -120,15 +121,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnforgotpassword"
-
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="5dp"
-
-
+        android:layout_marginTop="15dp"
         android:background="@color/green"
         android:gravity="center"
         android:text="New user? Sign up here"
