@@ -6,16 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignIn"
-    android:background="@color/green"
+    android:background="@drawable/delivarylogo"
     android:padding="40dp">
     <TextView
         android:layout_marginLeft="10dp"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
+        android:text="Sign Up Here"
         android:id="@+id/signup"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:gravity="center"
         android:background="@drawable/round2"
         android:textSize="40dp"
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/name"
         android:text="Freshtech"
-        android:textColor="@color/white"
+        android:textColor="@color/lime_green"
         android:layout_below="@+id/signup"
         android:textSize="30dp"
         android:layout_marginLeft="10dp"
@@ -55,7 +55,7 @@
         android:textColor="@color/black"></EditText>
 
     <EditText
-        android:id="@+id/etemail"
+        android:id="@+id/ETemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/round2"
@@ -69,11 +69,11 @@
         android:padding="20dp"
         android:textColor="@color/black"></EditText>
     <EditText
-        android:id="@+id/etpassword"
+        android:id="@+id/ETpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/round2"
-        android:layout_below="@id/etemail"
+        android:layout_below="@id/ETemail"
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
         app:passwordToggleEnabled="true"
@@ -89,7 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/round2"
-        android:layout_below="@id/etpassword"
+        android:layout_below="@id/ETpassword"
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
         app:passwordToggleEnabled="true"
@@ -101,50 +101,39 @@
         android:padding="20dp"
         android:textColor="@color/black"></EditText>
     <TextView
-        android:id="@+id/btnsignin1"
+        android:id="@+id/btnsignup"
         android:layout_width="140dp"
         android:layout_height="65dp"
         android:layout_below="@id/etrepassword"
         android:background="@drawable/round"
         android:backgroundTint="@color/white"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
         android:text="SIGN UP"
-        android:layout_marginTop="40dp"
         android:padding="20dp"
         android:textSize="20dp"
         android:textStyle="bold"
         android:gravity="center"/>
 
     <TextView
-        android:id="@+id/btnsignup1"
+        android:id="@+id/btnsignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnforgotpassword"
-
-        android:background="@color/green"
-        android:text="New user? Sign up here"
+        android:layout_below="@id/btnsignup"
+       android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:text="Login here"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
         android:gravity="center"/>
 
-    <TextView
-        android:id="@+id/btnforgotpassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnsignin1"
 
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="313dp"
-        android:background="@color/green"
-        android:gravity="center"
-        android:text="forgot your password?"
-        android:textColor="@color/black"
-        android:textSize="20dp"
 
-        android:textStyle="bold" />
+
+
 
 
 </RelativeLayout>

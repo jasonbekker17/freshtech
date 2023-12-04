@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrowseFragment"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:textStyle="bold"
+        android:hint="Search"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:hint="Search from google >>>"
+        android:textStyle="italic"
+        />
+
+    <LinearLayout
+        android:background="@drawable/gradientbackground"
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/meal1"
+            />
+        <TextView
+            android:id="@+id/text1"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="14dp"
+
+            android:layout_height="wrap_content"
+            android:text= "1/4cup1/4 cup low-salt beef broth
+1/4cup1/4 cup dry red wine
+1/2teaspoon1/2 teaspoon all-purpose flour
+1/4teaspoon1/4 teaspoon salt
+1/4teaspoon1/4 teaspoon dried tarragon
+1/8teaspoon1/8 teaspoon black pepper
+Cooking spray
+2(4-ounce)2 (4-ounce) beef tenderloin steaks
+2tablespoons2 tablespoons shallots, chopped
+"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/gradientbackground"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:layout_marginTop="385dp"
+        >
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/meal3"
+            />
+        <TextView
+            android:id="@+id/profile_uname"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="13dp"
+
+            android:layout_height="wrap_content"
+            android:text= "1 1/2 cup (300g) brown rice
+1 kumara (500g), chopped coarsely
+4 potatoes (480g), chopped coarsely
+2 tablespoon plain flour
+2 tablespoon sour cream
+2 tablespoon finely chopped fresh chives"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

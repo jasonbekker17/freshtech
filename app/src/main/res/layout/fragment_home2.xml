@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:background="@drawable/gradientbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        >
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/meal2"
+            />
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:layout_height="wrap_content"
+            android:text= "1 1/2 cup (300g) brown rice
+1 kumara (500g), chopped coarsely
+4 potatoes (480g), chopped coarsely
+2 tablespoon plain flour
+2 tablespoon sour cream
+2 tablespoon finely chopped fresh chives"
+            android:textColor="#fff"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/gradientbackground"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:layout_marginTop="220dp"
+        >
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/meal4"
+            />
+        <TextView
+            android:id="@+id/prof_name"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:layout_height="wrap_content"
+            android:text= "1/4 cup Worcestershire sauce
+2 tablespoons olive oil
+2 teaspoons cracked black pepper
+2 garlic cloves, finely chopped
+4 (1/2-inch-thick) beef T-bone steaks
+1 1/4 cups all-purpose flour
+1 cup beer
+Oil for deep frying
+2 small yellow onions, cut into 1/4-inch-thick slices, separated into rings
+1 teaspoon salt"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="300dp"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:src="@drawable/ic_add" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>
